@@ -90,7 +90,7 @@ def main():
     """
     data = get_sales_data()
     sales_data = [int(num) for num in data]
-    update_woksheet(sales_data, "sales")
+    update_worksheet(sales_data, "sales")
     new_surplus_data = calculate_surplus_data(sales_data)
     update_worksheet(new_surplus_data, "surplus")
 
